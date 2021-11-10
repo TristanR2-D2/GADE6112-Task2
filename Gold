@@ -1,0 +1,23 @@
+using System;
+
+public class Gold : Item
+{
+	public int ammountGold;
+	public int GetammountGold() { return ammountGold; }
+
+	private Gold RondomGAmmount = new Gold;
+
+
+	public Item(int x, int y)
+	{
+		Item(x, y);
+		
+		Random random = new Random();
+	int randomNumber = random.Next(0,6);
+           
+	RandomGAmmount = randomNumber;
+
+	}
+
+	
+}
