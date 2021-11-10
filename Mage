@@ -1,0 +1,26 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Poe_Final
+{
+    public class Mage : Enemy
+    {
+        public override MovementEnum ReturnMove()
+        {
+            throw new NotImplementedException();
+        }
+
+        public Mage(int x, int y) : base(x, y, 5, 5, 5, "M")
+        {
+
+        }
+
+        public static int ReturnMoveG()
+        { 
+            return 0;
+        }
+    }
+}
