@@ -1,0 +1,20 @@
+using System;
+
+public abstract class Item : Tile
+
+{
+    public Item(int x, int y)
+    {
+        Tile(x, y);
+
+    }
+
+
+    public abstract ToString()
+    {
+
+
+    }
+
+
+}
